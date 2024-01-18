@@ -1,3 +1,7 @@
+<div>![image](https://github.com/20161609/FinanceTreeProject/assets/92266688/1f34c8fb-2dee-4ee1-9b55-9c974739be9c)</div>
+<br>
+<br>
+
 # 프로젝트 소개 (Project Description)
 Finance Tree는 금융 거래를 관리하고 조직화하는 커맨드 라인 인터페이스 도구입니다. 사용자는 마치 파일 시스템을 탐색하듯, 금융 거래를 트리 구조로 관리할 수 있습니다. 이 도구는 SQLite 데이터베이스를 사용하여 거래 내역을 저장하며, 다양한 커맨드를 통해 데이터를 쉽게 관리할 수 있습니다.
 
