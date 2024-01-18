@@ -1,4 +1,4 @@
-<div>![image](https://github.com/20161609/FinanceTreeProject/assets/92266688/1f34c8fb-2dee-4ee1-9b55-9c974739be9c)</div>
+<div><img width="418" alt="image" src="https://github.com/20161609/FinanceTreeProject/assets/92266688/d6a43b42-ae2c-4db7-8673-470ae91c1c99"></div>
 <br>
 <br>
 
