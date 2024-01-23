@@ -87,4 +87,21 @@ def delete_branch(branch: Branch, del_key: str):
         with open(file_path, 'w') as file:
             json.dump(data, file)
     except Exception as e:
+        print('!Error:',e)
+
+def modifyBranchName(branch, old_name='', new_name=''):
+    try:
+        file_path = fileDescripter.get_resource_path("directory.json")
+        with open(file_path, 'r', encoding='utf-8') as file:
+            data = json.load(file)
+        node = data
+        for node_name in branch.cur_path.split('/'):
+            node = node[node_name]
+
+        node[new_name] = node[old_name]
+        node.pop(old_name)
+        with open(file_path, 'w') as file:
+            json.dump(data, file)
+    except Exception as e:
         print(e)
+        pass

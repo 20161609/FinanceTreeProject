@@ -18,7 +18,7 @@ class SqlBox:
             CASHFLOW INT, 
             DESCRIPTION STR,
             CREATED_TIME TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-            )'''
+        )'''
 
         self.cursor.execute(create_query)
 
